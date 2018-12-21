@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900" rel="stylesheet">
+        <link rel="icon" href="images/favicon.jpg"type="image/gif" sizes="32x32">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/master-2.css">
+    <title>Recipe</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 image-recipe">
+               <div class="image-content d-flex justify-content-between">
+                   <div class="time-icon pl-5">
+                       <img src="images/icon-watch.png" alt=""class="mt-3 mb-3">
+                       <p class="image-content-time">0-15min</p>
+                   </div>
+                  <div class="icon-serve"><img src="images/icon-serve.png" alt=""class="mt-3 mb-3"> 
+                    <p class="image-content-time">Serving 5</p>
+                  </div>
+                  <div class="icon-vegan pr-5"><img src="images/icon-vegan.png" alt=""class="mt-3 mb-3">
+                    <p class="image-content-time">Vegan</p>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-6 p-0">
+                <div class="button-recipe">
+                    <button class="image-recipe-btn btn1" id="btn1">ingredients</button>
+                    <button class="image-recipe-btn btn2" id="btn2">preparation</button>
+                    <button class="image-recipe-btn btn3 w-40"id="btn3">watch video</button>
+                    <hr class="m-0">
+                </div>
+                
+                <!-- INGREDIENTS  -->
+
+                <div class="recipe-main-content" id="ingredients">
+                    <div class="recipe-main-content-h1">
+                        Ingredients
+                    </div>
+                    <div class="recipe-content d-flex">
+                        <div class="line-horizontal">
+
+                        </div>
+                        <div class="recipe-main-content-p">
+                            <p>1 pound elbow macaroni<br>
+
+                            Kosher salt <br>
+
+                            One 12-ounce can evaporated milk <br>
+
+                            3 tablespoons unsalted butter <br>
+
+                            3 cups shredded mild or medium Cheddar</p> 
+                        </div>
+                    </div>
+                    <div>
+                        <button class="animated tada direction-btn"><a href="shopping cart.html">get ingredients</a><img src="images/arrow-right.png" height=15 alt="" class="pl-5"></button>
+                    </div>
+                </div>
+
+                <!-- PREPARATION -->
+
+                <div class="preparation-content" id="preparation" style="display: none">
+                    <div class="preparation-content-h2">
+                        Preparation
+                    </div>
+                       <div class="preparation-content-content d-flex">
+                        
+                            <div class="recipe-main-content-p pr-5">
+                                <p>1. Combine the macaroni, 4 cups water and 1 tablespoon salt in an Instant Pot® (see Cook's Note). Follow the manufacturer's guide for locking the lid and preparing to cook. Set to pressure cook on high for 4 minutes </p>
+
+                                <p>
+                                    2. After the pressure cook cycle is complete follow the manufacturer's guide for quick release and wait until the quick release cycle is complete. Careful of any remaining steam, unlock and remove the lid and switch to low saute setting. 
+                                </p>
+
+                                <p>
+                                    3. Stir in the evaporated milk, butter and 1/4 cup water. Then add the Cheddar, a little at time, while constantly stirring, until the cheese is completely melted. Serve hot.
+                                </p>
+                            </div>
+                        </div>
+                </div>
+
+                <!-- VIDEO -->
+
+                <div class="video-recipe"id="video-recipe" style="display: none">
+                    <video width="100%" controls>
+                        <source src="mov_bbb.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js" ></script>
+</body>
+</html>

@@ -1,0 +1,456 @@
+* {
+  font-family: 'Nunito Sans',sans-serif;
+}
+
+body,html{
+  background-color: #D3D3D3;
+  margin: 0;
+  padding-bottom: 0;
+   margin-bottom: 0;
+}
+
+.navbar {
+   font-size: 1.5rem;
+   background-color: transparent;
+   margin-right: 10rem;
+}
+.nav-item {
+   margin-left: 5rem;
+   /* margin-top: 2rem; */
+}
+.imgHero {
+   display: block;
+   height: 100vh;
+}
+.nav-link {
+   color: #F21B3F;
+}
+
+.left__side {
+   height: 100vh;
+}
+
+.button__header {
+   position: absolute;
+   top: 70vh;
+   width: 43rem;
+
+}
+.heading-how {
+  color: #F21B3F;
+  font-weight: 700;
+}
+
+.button , #button{
+   background-color: #F21B3F;
+   font-weight: 200;
+   width: 20rem;
+   font-size: 1.5rem;
+   color: white;
+   height: 10rem;
+   margin: 0;
+   border: none;
+}
+
+.button__header-2 {
+   position: absolute;
+   border-left: 1px solid white;
+}
+
+.logo {
+   margin-left: 9rem;
+}
+
+.card {
+   position: absolute;
+   top: 15rem;
+   left: 10rem;
+}
+
+.card-title {
+   font-family: 'Abril Fatface', cursive;
+   font-size: 2rem;
+}
+
+.card-body {
+   background-color: #F21B3F;
+   color: white;
+}
+.card-text {
+   font-size: 1.4rem;
+   color: white;
+}
+
+.hero-card {
+  position: absolute;
+  top: 7rem;
+}
+
+.recipe__text {
+   width: 50rem;
+   font-size: 6rem;
+   font-weight: 900;
+   color: #F21B3F;
+   line-height: 0.8;
+   position: absolute;
+   top: 30rem;
+   left: 40rem;
+}
+
+.lin {
+   height: 1px;
+   width: 7rem;
+   background-color: #F21B3F;
+}
+
+.get-recipe-text {
+   color: #F21B3F;
+   font-size: 1.1rem;
+   text-transform: uppercase;
+   letter-spacing: 0.6rem;
+   font-weight: 900;
+}
+
+.get-recipe {
+   position: absolute;
+   top: 50rem;
+   left: 37rem;
+}
+
+.line-1,.line-2 {
+   height: 1px;
+   width: 7rem;
+   background-color: #F21B3F;
+}
+
+/* how it works  */
+.how-it-works , .recipe {
+  font-size: 40px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.row{
+  margin-bottom: 60px;
+}
+
+.img{
+  margin-left: 240px;
+}
+.line {
+  background-color: black;
+  height: 1px;
+  width: 20px;
+}
+
+.icon {
+  width: 60%;
+  margin-left: 22px;
+}
+
+.icon-m {
+  width: 80%;
+  margin-left: 22px;
+}
+
+
+p {
+  color:#F21B3F;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.learn {
+  background-color:#F21B3F;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+span{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/*recepi  */
+.background{
+  background-color: #F21B3F;
+  border-radius: 0px 0px 20px 20px;
+  width: 80%;
+  height: auto;
+  margin-left: 22px;
+  display: inline-grid;
+}
+
+.clock{
+  width: 20px;
+  margin-left: 15px;
+}
+.timer{
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+#grilled{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2rem;
+}
+
+/*anchor effects  */
+button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  width: 60px;
+  padding: 1em 2em;
+  box-shadow: inset 0 0 0 2px white;
+  color: #f45e61;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+}
+button::before, button::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.spin {
+  width: 9em;
+  height: 5em;
+  padding: 0;
+}
+.spin:hover {
+  color: red;
+}
+.spin::before, .spin::after {
+  top: 0;
+  left: 0;
+}
+.spin::before {
+  border: 2px solid transparent;
+}
+.spin:hover::before {
+  border-top-color: red;
+  border-right-color: red;
+  border-bottom-color: red;
+  transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+.spin::after {
+  border: 0 solid transparent;
+}
+.spin:hover::after {
+  border-top: 2px solid red;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  transition: border-left-width 0s linear 0.35s, -webkit-transform 0.4s linear 0s;
+  transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
+  transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s, -webkit-transform 0.4s linear 0s;
+}
+
+/*fooeter  */
+
+.background2{
+  background-color: #F21B3F;
+  width: 100%;
+  height: 50%;
+  display: inline-grid;
+}
+
+#heading{
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 40px;
+}
+
+
+.login-form {
+  background-color: #F21B3F;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.login{
+  margin: 0 auto;
+  padding:30px;
+  display: flex;
+}
+
+#fresh-login-img {
+  margin-top: 100px;
+  /* width: 70%; */
+}
+
+#login-img {
+  height: 100vh;
+  float: left;
+  background-size: cover;
+}
+
+#login-form {
+  float: right;
+}
+
+
+/*All here  */
+/* form starting stylings ---------- */
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color:transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* LABEL ======== */
+label {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+label.label-text {
+  color: white;
+}
+
+/* active state */
+input:focus~label, input:valid~label {
+  top: -20px;
+  font-size: 14px;
+  color: white;
+}
+
+/* BOTTOM BARS =========== */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+
+.bar:before, .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #FFFFFF;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus~.bar:before, input:focus~.bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ======== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus~.highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ======= */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #FFFFFF;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #FFFFFF;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: #FFFFFF;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+form {
+  margin-left: 30%;
+}
+
+#mail{
+  margin-left: 25%;
+}
+
+/*arrow  */

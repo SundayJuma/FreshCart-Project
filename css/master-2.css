@@ -1,0 +1,491 @@
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+}
+.navbar {
+    font-size: 1.5rem;
+    background-color: transparent;
+    margin-right: 10rem;
+}
+.nav-item {
+    margin-left: 5rem;
+    /* margin-top: 2rem; */
+}
+.imgHero {
+    display: block;
+    height: 100vh;
+}
+.nav-link {
+    color: #F21B3F;
+}
+
+.left__side {
+    height: 100vh;
+}
+
+.button__header {
+    position: absolute;
+    top: 80vh;
+    width: 43rem;
+
+}
+
+.button{
+    background-color: #F21B3F;
+    font-weight: 200;
+    width: 20rem;
+    font-size: 1.5rem;
+    color: white;
+    height: 10rem;
+    margin: 0;
+    border: none;
+}
+
+.button__header-2 {
+    position: absolute;
+    border-left: 1px solid white;
+}
+
+.logo {
+    margin-left: 9rem;
+}
+
+.card {
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+}
+
+.card-title {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+}
+
+.card-body {
+    background-color: #F21B3F;
+    color: white;
+}
+.card-text {
+    font-size: 1.4rem;
+}
+
+.recipe__text {
+    width: 50rem;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #F21B3F;
+    line-height: 0.8;
+    position: absolute;
+    top: 30rem;
+    left: 40rem;
+}
+
+.line {
+    height: 1px;
+    width: 7rem;
+    background-color: #F21B3F;
+}
+
+.get-recipe-text {
+    color: #F21B3F;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+div.get-recipe.get-recipe-text a {
+    color: #F21B3F !important;
+}
+
+.get-recipe {
+    position: absolute;
+    top: 50rem;
+    left: 37rem;
+}
+
+.line-1,.line-2 {
+    height: 1px;
+    width: 7rem;
+    background-color: #F21B3F;
+}
+
+.heading-2 {
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F21B3F;
+}
+
+.image-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #F21B3F;
+}
+.image-paragraph {
+    font-size: 1.5rem;
+    color: #F21B3F;
+}
+
+.section-how {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.icon {
+    margin-left: 13rem;
+    margin-bottom: 5rem;
+}
+.learn-more-btn {
+    background-color: #F21B3F;
+    color: white;
+    height: 5rem;
+    width: 20rem;
+    margin: auto;
+    font-size: 1.6rem;
+}
+.section-recipe {
+   
+    height: 100vh;
+}
+
+
+/* Recipe content */
+
+.image-recipe {
+    background-image: url('/images/meal-recipe.jpg');
+    height: 100vh;
+    background-size: cover;
+    padding: 0;
+
+}
+
+.image-content {
+    background-color: #F21B3F;
+    width: 100%;
+    position: absolute;
+    top: 80vh;
+    height: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.image-content-time {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.image-recipe-btn {
+    height: 10rem;
+    background-color:transparent;
+    width: 19rem;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border: none;
+}
+.image-recipe-btn:hover {
+    background-color: #F21B3F;
+    color: white;
+}
+
+.recipe-main-content-p {
+    font-size: 1.6rem;
+    color: grey;
+    padding-left: 10rem;
+    padding-top: 4rem;
+}
+
+.recipe-main-content-h1 {
+    color: #F21B3F;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-left: 8rem;
+    padding-top: 6rem;
+}
+.line-horizontal {
+    margin-top: 3rem;
+    height: 25rem;
+    width: 1px;
+    background-color: #F21B3F;
+    position: absolute;
+    top: 20rem;
+    left: 8rem;
+}
+
+.preparation-content-h2 {
+    color: #F21B3F;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-left: 8rem;
+    padding-top: 6rem;
+}
+.direction-btn {
+    position: absolute;
+    top: 50rem;
+    left: 30rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #F21B3F;
+    height: 7rem;
+    width: 20rem;
+    display: flex;
+    justify-content: start;
+    padding-left: 2.5rem;
+}
+.direction-btn a {
+    color: white;
+
+}
+/* WHY US */
+
+.why-us p {
+    font-size: 2.5rem;
+    color: grey;
+    padding-left: 20rem !important;
+    padding-right: 20rem !important;
+}
+
+/* contact form */
+
+.contact-form-main {
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: white;
+    background-color: #F21B3F;
+    padding: 20rem !important;
+    height: 100vh;
+}
+.input-footer {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid white !important;
+}
+
+.text-area-footer {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+
+
+/* recipe main page */
+
+.recipe-context-text {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+.recipe-context-text a {
+    color: #F21B3F;
+    text-decoration: none;
+    font-weight: 700;
+} 
+
+.menu-recipe {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 900;
+    font-size: 1.7rem;
+    margin-bottom: 7rem;
+}
+
+.menu-recipe:hover,
+.menu-recipe:active {
+    color: #F21B3F;
+    border-bottom: 1px solid #F21B3F;
+    border-top: 1px solid #F21B3F;
+}
+
+a.menu-recipe {
+    text-decoration: none;
+}
+
+#ourrecipe {
+    font-size: 8rem;
+    font-weight: 900;
+}
+
+.hr-line{
+    margin-bottom: 9rem !important;
+}
+/* footer */
+.footer-content {
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: grey;
+}
+
+.icons-social {
+    font-size: 2.5rem
+}
+
+.hr-footer {
+    margin-top: 7rem;
+}
+
+/* Shopping Cart */
+
+.shopping-cart{
+	padding-bottom: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.shopping-cart.dark{
+	background-color: #f6f6f6;
+}
+
+.shopping-cart .content{
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+	background-color: white;
+}
+
+.shopping-cart .block-heading{
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.shopping-cart .block-heading p{
+	text-align: center;
+	max-width: 420px;
+	margin: auto;
+	opacity:0.7;
+}
+
+.shopping-cart .dark .block-heading p{
+	opacity:0.8;
+}
+
+.shopping-cart .block-heading h1,
+.shopping-cart .block-heading h2,
+.shopping-cart .block-heading h3 {
+	margin-bottom:1.2rem;
+	color: #F21B3F;
+}
+
+.shopping-cart .items{
+	margin: auto;
+}
+
+.shopping-cart .items .product{
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.shopping-cart .items .product .info{
+	padding-top: 0px;
+	text-align: center;
+}
+
+.shopping-cart .items .product .info .product-name{
+	font-weight: 600;
+}
+
+.shopping-cart .items .product .info .product-name .product-info{
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.shopping-cart .items .product .info .product-name .product-info .value{
+	font-weight: 400;
+}
+
+.shopping-cart .items .product .info .quantity .quantity-input{
+    margin: auto;
+    width: 80px;
+}
+
+.shopping-cart .items .product .info .price{
+	margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+ }
+
+.shopping-cart .summary{
+	border-top: 2px solid #F21B3F;
+    background-color: #f7fbff;
+    height: 100%;
+    padding: 30px;
+}
+
+.shopping-cart .summary h3{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 600;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.shopping-cart .summary .summary-item:not(:last-of-type){
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.shopping-cart .summary .text{
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.shopping-cart .summary .price{
+	font-size: 1em;
+	float: right;
+}
+
+.shopping-cart .summary button{
+	margin-top: 20px;
+}
+
+.product-name a{
+    font-size: 2rem;
+    color: #F21B3F;
+}
+
+.product-info {
+    color: grey;
+    font-weight: 100;
+}
+
+.price {
+    color:#F21B3F;
+}
+
+.btn-primary:hover {
+    background-color: rgb(153, 19, 41);
+}
+
+.shopping-heading {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+	.shopping-cart .items .product .info {
+		padding-top: 25px;
+		text-align: left; 
+	}
+
+	.shopping-cart .items .product .info .price {
+		font-weight: bold;
+		font-size: 22px;
+		top: 17px; 
+	}
+
+	.shopping-cart .items .product .info .quantity {
+		text-align: center; 
+	}
+	.shopping-cart .items .product .info .quantity .quantity-input {
+		padding: 4px 10px;
+		text-align: center; 
+	}
+}

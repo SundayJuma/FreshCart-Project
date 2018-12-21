@@ -1,0 +1,227 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  /* background-color: #F21B3F; */
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.Login__pic {
+  float: left;
+}
+
+.login-form {
+  background-color: #F21B3F;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.login{
+  margin: 0 auto;
+  padding:30px;
+  display: flex;
+}
+
+#fresh-login-img {
+  margin-top: 40px;
+  /* width: 70%; */
+}
+
+#login-img {
+  height: 100vh;
+  float: left;
+  background-size: cover;
+}
+
+#login-form {
+  float: right;
+}
+
+
+/*All here  */
+/* form starting stylings ---------- */
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background-color: #F21B3F;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* LABEL ======== */
+label {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus~label, input:valid~label {
+  top: -20px;
+  font-size: 14px;
+  color: white;
+}
+
+/* BOTTOM BARS =========== */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+
+.bar:before, .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #FFFFFF;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus~.bar:before, input:focus~.bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ======== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus~.highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ======= */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #FFFFFF;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #FFFFFF;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: #FFFFFF;
+  }
+
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.button{
+  text-align: center;
+
+}
+
+.button {
+  position: relative;
+  background-color: #F21B3F;
+  border: none;
+  font-size: 12px;
+  color: #FFFFFF;
+   border: 1px solid white;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.button:after {
+  content: "";
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin-left: 80px;
+}
+.skip{
+  color: white;
+  text-decoration: none;
+}
+
+#skip{
+  margin-left: 115px;
+}
